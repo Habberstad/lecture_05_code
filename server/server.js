@@ -2,9 +2,8 @@ import express from "express"
 
 const app = express()
 
-/**
- *  /login
- * */
+// path = /login
+// handle login logic
 app.get("/login", (req, res) => {
     res.json({username: "Noen Andre"})
 })
