@@ -6,7 +6,10 @@
   "scripts": {
     "start": "cd server && npm start",
     "build": "cd server && npm install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier format",
+    "format:check": "prettier --check **/*.{jsx,js,ts,tsx}",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/Habberstad/lecture_05_code/issues"
   },
-  "homepage": "https://github.com/Habberstad/lecture_05_code#readme"
+  "homepage": "https://github.com/Habberstad/lecture_05_code#readme",
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1"
+  }
 }
+
+
