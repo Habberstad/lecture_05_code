@@ -5,11 +5,11 @@ const app = express()
 // path = /login
 // handle login logic
 app.get("/login", (req, res) => {
-    res.json({username: "Noen Andre"})
+    res.json({username: "Noen Andre Persson"})
 })
 
 app.post("/login", (req, res) => {
-    res.sendStatus(200)
+    res.sendStatus(401)
 })
 
 
