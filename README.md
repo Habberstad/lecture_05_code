@@ -11,4 +11,3 @@ Heroku
     * [ ] <BrowserRouter /> affects the server
 * [ ] Connect frontend to backend
 * [ ] Jest with Express
-* [ ] 
